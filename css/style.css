@@ -295,39 +295,7 @@
 	background-color: #067936;
 	color: #fff;
 }
-/*3*
-.price-table3 table{
-	text-align: center; 
-	border: 1px #27ae61 solid;
-}
-.price-table3 table tr{}
-.price-table3 table tr th{
-	    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 50px;
-    background: #27ae61;
-    padding: 45px 0; 
 
-}
-.price-table3 table tr td{
-	text-transform: capitalize;
-}
-.price-table3 table tr td button{
-	text-transform: capitalize;
-    background: #27ae61;
-    color: #fff;
-    border-radius: 1px;
-    margin: 7px 0;
-    transition: all 0.1s ease;
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-}
-.price-table3 table tr td button:hover{
-	background-color: #067936;
-	color: #fff;
-}
-3*/
 
 .payment{    background: #209C54;
     color: #fff;
@@ -373,7 +341,11 @@
     padding-left: 25px;
     position: inherit;
 }
-
+@media (max-width: 382px){
+.carousel-caption h3{
+		font-size: 30px !important;
+	}
+}
 /*
 @media (max-width: 991px){
 .identity .doc-content {
