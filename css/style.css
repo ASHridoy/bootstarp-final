@@ -340,6 +340,7 @@
 .identity .doc-content {
     padding-left: 25px;
     position: inherit;
+	float: left !important;
 }
 @media (max-width: 382px){
 .carousel-caption h3{
