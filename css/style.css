@@ -135,6 +135,7 @@
     margin-bottom: 7px;
     font-size: 18px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .identity .doc-content span{
 	color: #999;
@@ -142,9 +143,9 @@
 .identity .doc-content p{
 	margin-top: 7px;
 }
-
+.doctors{}
 .docpic{}
-
+.docs{}
 .social{
 
 }
@@ -353,3 +354,40 @@
 }
 
 /*contact-section*/
+
+@media (max-width: 880px){
+	.carousel-caption h2{
+		display: none;
+	}
+	.carousel-caption button{
+		display: none;
+	}
+}
+@media (max-width: 496px){
+	.carousel-caption h3{
+		font-size: 50px;
+	}
+}
+@media (max-width: 700px){
+.identity .doc-content {
+    padding-left: 25px;
+    position: inherit;
+}
+
+/*
+@media (max-width: 991px){
+.identity .doc-content {
+  position: absolute;
+    right: 0 !important;
+    width: 38% !important;
+    display: block !important;
+    padding-left: 25px;
+}
+.identity .doc-content p{
+	margin: 0 !important;
+}
+.social li {
+	padding-left: 4px !important;
+	padding: 0px !important;
+}
+}*/
